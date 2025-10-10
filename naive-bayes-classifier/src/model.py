@@ -7,7 +7,7 @@ from sklearn.metrics import classification_report
 from collections import Counter
 
 # Cargar datos
-df = pd.read_csv("dataset.csv")
+df = pd.read_csv("naive-bayes-classifier/data/dataset.csv")
 
 # Separar caracteristicas y etiquetas
 X = df["text"]
@@ -33,7 +33,7 @@ print(train_df.to_string(index=False))
 print("\n TEST")
 print(test_df.to_string(index=False))
 
-# Crear pipeline
+# Crear pipeline 
 model = make_pipeline(CountVectorizer(), MultinomialNB())
 
 # Entrenar
@@ -47,8 +47,8 @@ print(classification_report(y_test, y_pred, zero_division=0))
 # Mostrar matrices de caracteristicas de Train y TEST
 vectorizer = model.named_steps["countvectorizer"]
 
-X_train_mat = vectorizer.transform(X_train)
-X_test_mat  = vectorizer.transform(X_test)
+X_train_mat = vectorizer.transform(X_train) 
+X_test_mat  = vectorizer.transform(X_test)  
 
 print("\n Matrices")
 print(f"Vocabulario: {len(vectorizer.get_feature_names_out())}")
