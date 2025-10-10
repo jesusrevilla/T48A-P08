@@ -7,13 +7,13 @@ from sklearn.metrics import classification_report
 
 # Cargar datos
 df = pd.read_csv("naive-bayes-classifier/data/dataset.csv")
-
+print("dataframe", df)
 # Separar características y etiquetas
 X = df["text"]
 y = df["label"]
 
 # Dividir en entrenamiento y prueba
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 # Crear pipeline
 model = make_pipeline(CountVectorizer(), MultinomialNB())
