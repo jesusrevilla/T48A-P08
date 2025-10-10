@@ -21,6 +21,14 @@ model = make_pipeline(CountVectorizer(), MultinomialNB())
 # Entrenar
 model.fit(X_train, y_train)
 
+#elementos de entrenamiento
+print("Textos de entrenamiento:")
+print(X_train)
+
+#elementos de prueba
+print("\n\nTextos de prueba:")
+print(X_test)
+
 # Evaluar
 y_pred = model.predict(X_test)
 print(classification_report(y_test, y_pred))
