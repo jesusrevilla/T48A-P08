@@ -3,3 +3,8 @@ text,label
 "Odio este servicio",negativo
 "Es excelente",positivo
 "Terrible experiencia",negativo
+"Pesimo producto",negativo
+"Excelente servicio",positivo
+"Es excelente",positivo
+"Gracias por este producto",positivo
+"Deteste este servicio",negativo
