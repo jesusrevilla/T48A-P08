@@ -8,3 +8,5 @@ text,label
 "Mediocre", negativo
 "horrible trato", negativo
 "Increible servicio", positivo
+"Este producto es bueno", positivo
+"Este producto es malo", negativo
