@@ -3,3 +3,9 @@ text,label
 "Odio este servicio",negativo
 "Es excelente",positivo
 "Terrible experiencia",negativo
+"No volvería a comprar aquí",negativo
+"La atención al cliente fue increíble",positivo
+"El producto llegó dañado y tarde",negativo
+"Funciona mejor de lo que esperaba",positivo
+"Un producto nada inovador",negativo
+"El envío fue muy rápido y todo llegó bien",positivo
