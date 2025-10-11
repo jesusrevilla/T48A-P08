@@ -8,6 +8,8 @@ import pandas as pd
 # Cargar datos
 df = pd.read_csv("naive-bayes-classifier/data/dataset.csv")
 
+
+X = df["text"]
 y = df["label"]
 
 # Dividir en entrenamiento y prueba
