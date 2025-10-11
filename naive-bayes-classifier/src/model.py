@@ -3,6 +3,7 @@ from sklearn.pipeline import make_pipeline
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 from sklearn.metrics import classification_report, confusion_matrix
+import pandas as pd
 
 # Cargar datos
 df = pd.read_csv("naive-bayes-classifier/data/dataset.csv")
