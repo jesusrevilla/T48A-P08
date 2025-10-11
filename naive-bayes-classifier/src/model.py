@@ -6,7 +6,7 @@ from sklearn.metrics import classification_report, confusion_matrix
 
 # Cargar datos
 df = pd.read_csv("naive-bayes-classifier/data/dataset.csv")
-@@ -13,7 +13,28 @@
+
 y = df["label"]
 
 # Dividir en entrenamiento y prueba
@@ -36,7 +36,6 @@ print()
 
 # Crear pipeline
 model = make_pipeline(CountVectorizer(), MultinomialNB())
-@@ -23,7 +44,34 @@
 
 # Evaluar
 y_pred = model.predict(X_test)
