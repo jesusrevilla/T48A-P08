@@ -3,3 +3,9 @@ text,label
 "Odio este servicio",negativo
 "Es excelente",positivo
 "Terrible experiencia",negativo
+"Muy bueno",positivo
+"Horrible",negativo
+"Amé esto",positivo
+"Wow",positivo
+"Meh",negativo
+"Increíble",positivo
