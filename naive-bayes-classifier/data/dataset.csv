@@ -1,5 +1,18 @@
 text,label
-"Me encanta este producto",positivo
-"Odio este servicio",negativo
-"Es excelente",positivo
-"Terrible experiencia",negativo
+Me encanta este producto,positivo
+Odio este servicio,negativo
+Es excelente,positivo
+Es un desastre,negativo
+Terrible experiencia,negativo
+Muy satisfactorio,positivo
+Simplemente maravilloso,positivo
+Tremenda porquería,negativo
+Es estupendo,positivo
+Es muy molesto,negativo
+Es excelente,positivo
+Es terrible,negativo
+Simplemente maravilloso,positivo
+Lo odio; no me gusta,negativo
+Me gusta este servicio,positivo
+No me gusta este producto,negativo
+No me gusta este servicio,negativo

@@ -25,4 +25,3 @@ class TestTextClassificationModel(unittest.TestCase):
     def test_dataset_length(self):
         df = pd.read_csv("naive-bayes-classifier/data/dataset.csv")
         self.assertGreaterEqual(len(df), 10, "El archivo dataset.csv debe contener al menos 10 registros.")
-
