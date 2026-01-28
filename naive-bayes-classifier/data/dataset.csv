@@ -1,5 +1,11 @@
 text,label
-"Me encanta este producto",positivo
 "Odio este servicio",negativo
 "Es excelente",positivo
 "Terrible experiencia",negativo
+"Muy satisfecho con la calidad",positivo
+"El envío fue rapidísimo",positivo
+"Vale totalmente la pena",positivo
+"Producto de primera",positivo
+"Deficiente y decepcionante",negativo
+"Mala relación calidad-precio",negativo
+"Atención pésima del soporte",negativo
