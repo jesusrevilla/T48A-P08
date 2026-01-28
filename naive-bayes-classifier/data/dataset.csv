@@ -3,3 +3,9 @@ text,label
 "Odio este servicio",negativo
 "Es excelente",positivo
 "Terrible experiencia",negativo
+"No me gusta",negativo
+"Q rico delisioso me encanta",positivo
+"Lo adoro",positivo
+"Lo detesto",negativo
+"Eggselente",positivo
+"No eggselente",negativo
