@@ -1,5 +1,12 @@
 text,label
+"El producto esta excelente",positivo
 "Me encanta este producto",positivo
+"Me gusto este producto",positivo
+"Esta chevere esto",positivo
+"Fue algo estrepitoso esto",regular
+"Creo que pudo ser mejor",regular
+"Esta mas o menos",regular
 "Odio este servicio",negativo
-"Es excelente",positivo
+"Esta de la patada esto",negativo
 "Terrible experiencia",negativo
+"Caiste a lo mas bajo con esto",negativo
