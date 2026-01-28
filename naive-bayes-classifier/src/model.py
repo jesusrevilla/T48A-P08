@@ -7,7 +7,7 @@ from sklearn.metrics import classification_report
 
 # Cargar datos
 df = pd.read_csv("naive-bayes-classifier/data/dataset.csv")
-
+print("dataframe", df)
 # Separar características y etiquetas
 X = df["text"]
 y = df["label"]
